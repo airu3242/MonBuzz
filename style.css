@@ -48,4 +48,23 @@ footer {
     width: 100%;
     bottom: 0;
 }
+.members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.member {
+    width: 200px;
+    padding: 15px;
+    color: white;
+    border-radius: 10px;
+}
+
+.purple { background-color: purple; }
+.blue { background-color: blue; }
+.green { background-color: green; }
+.pink { background-color: pink; }
 
