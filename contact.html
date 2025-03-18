@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MonBuzz - メンバー紹介</title>
+    <title>MonBuzz - お問い合わせ</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,12 +19,14 @@
         </nav>
     </header>
     <main>
-        <section class="members">
-            <h2>メンバー紹介</h2>
-            <div class="member purple"> <h3>メンバー1（紫）</h3> <p>説明文</p> </div>
-            <div class="member blue"> <h3>メンバー2（青）</h3> <p>説明文</p> </div>
-            <div class="member green"> <h3>メンバー3（緑）</h3> <p>説明文</p> </div>
-            <div class="member pink"> <h3>メンバー4（ピンク）</h3> <p>説明文</p> </div>
+        <section class="contact">
+            <h2>お問い合わせ</h2>
+            <form action="https://formspree.io/f/xxxxxx" method="POST">
+                <label>名前: <input type="text" name="name" required></label><br>
+                <label>メール: <input type="email" name="email" required></label><br>
+                <label>メッセージ:<br><textarea name="message" required></textarea></label><br>
+                <button type="submit">送信</button>
+            </form>
         </section>
     </main>
     <footer>

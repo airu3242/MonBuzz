@@ -1,13 +1,15 @@
+/* 共通スタイル */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
-    text-align: center;
+    color: #333;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 header {
-    background-color: #222;
+    background-color: #6a0dad;
     color: white;
     padding: 15px;
 }
@@ -27,44 +29,46 @@ nav ul li a {
     text-decoration: none;
 }
 
-.intro {
-    margin: 50px auto;
-    padding: 20px;
-    max-width: 600px;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-.latest-videos {
-    margin: 30px;
-}
-
-footer {
-    background-color: #222;
-    color: white;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-.members {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    padding: 20px;
-}
+/* メンバーごとのカラー */
+.purple { background-color: #6a0dad; color: white; padding: 10px; border-radius: 10px; }
+.blue { background-color: #007bff; color: white; padding: 10px; border-radius: 10px; }
+.green { background-color: #28a745; color: white; padding: 10px; border-radius: 10px; }
+.pink { background-color: #e83e8c; color: white; padding: 10px; border-radius: 10px; }
 
 .member {
-    width: 200px;
-    padding: 15px;
-    color: white;
-    border-radius: 10px;
+    margin: 10px auto;
+    padding: 20px;
+    max-width: 300px;
 }
 
-.purple { background-color: purple; }
-.blue { background-color: blue; }
-.green { background-color: green; }
-.pink { background-color: pink; }
+/* フォーム */
+form {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #6a0dad;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #530c8c;
+}
 
