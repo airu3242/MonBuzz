@@ -26,6 +26,7 @@ nav ul {
 }
 nav ul li {
     margin: 10px 15px;
+    list-style: none;
 }
 nav ul li a {
     text-decoration: none;
@@ -57,10 +58,10 @@ nav ul li a:hover {
 }
 
 /* メンバーのテーマカラー */
-.member:nth-child(1) { background-color: #003d1f; } /* 濃い緑 */
-.member:nth-child(2) { background-color: #3a0066; } /* 濃い紫 */
-.member:nth-child(3) { background-color: #00004d; } /* 濃い青 */
-.member:nth-child(4) { background-color: #660000; } /* 濃いピンク */
+.member:nth-child(1) { background-color: #008c5f; } /* 濃い緑 */
+.member:nth-child(2) { background-color: #6a0dad; } /* 濃い紫 */
+.member:nth-child(3) { background-color: #0056b3; } /* 濃い青 */
+.member:nth-child(4) { background-color: #c2185b; } /* 濃いピンク */
 
 /* aタグのカスタマイズ（ボタン風） */
 a {
@@ -87,6 +88,15 @@ footer {
     text-align: center;
     margin-top: 20px;
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* 関連リンクのリスト調整 */
+.related-links ul {
+    padding: 0;
+    list-style: none;
+}
+.related-links ul li {
+    margin-bottom: 10px;
 }
 
 /* レスポンシブ対応 */
