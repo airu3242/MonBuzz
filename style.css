@@ -58,10 +58,10 @@ nav ul li a:hover {
 }
 
 /* メンバーのテーマカラー */
-.member:nth-child(1) { background-color: #008c5f; } /* 濃い緑 */
-.member:nth-child(2) { background-color: #6a0dad; } /* 濃い紫 */
-.member:nth-child(3) { background-color: #0056b3; } /* 濃い青 */
-.member:nth-child(4) { background-color: #c2185b; } /* 濃いピンク */
+.member-green { background-color: #008c5f; } /* 濃い緑 */
+.member-purple { background-color: #6a0dad; } /* 濃い紫 */
+.member-blue { background-color: #0056b3; } /* 濃い青 */
+.member-pink { background-color: #c2185b; } /* 濃いピンク */
 
 /* aタグのカスタマイズ（ボタン風） */
 a {
@@ -112,4 +112,3 @@ footer {
         width: 90%;
     }
 }
-
