@@ -113,6 +113,13 @@ footer {
     box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
 }
 
+.sns-icon {
+    width: 24px; /* アイコンサイズ */
+    height: 24px;
+    margin: 0 5px; /* アイコン間の余白 */
+    vertical-align: middle;
+}
+
 /* 関連リンクのリスト調整 */
 .related-links ul {
     padding: 0;
