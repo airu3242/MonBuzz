@@ -46,6 +46,7 @@ nav ul li a:hover {
 
 /* メンバー紹介カード */
 .member {
+    position: relative;
     padding: 20px;
     margin: 10px auto;
     width: 80%;
@@ -55,13 +56,35 @@ nav ul li a:hover {
     font-size: 18px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     text-align: center;
+    overflow: hidden;
 }
 
 /* メンバーのテーマカラー */
-.member-green { background-color: #008c5f; } /* 濃い緑 */
+.member-green { background-color: #006f48; } /* 濃い緑 */
 .member-purple { background-color: #6a0dad; } /* 濃い紫 */
-.member-blue { background-color: #0056b3; } /* 濃い青 */
-.member-pink { background-color: #c2185b; } /* 濃いピンク */
+.member-blue { background-color: #003d80; } /* 濃い青 */
+.member-pink { background-color: #a9154d; } /* 濃いピンク */
+
+/* メンバーアイコン（左上） */
+.member-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+/* チームロゴ（右上） */
+.team-logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
 
 /* aタグのカスタマイズ（ボタン風） */
 a {
@@ -112,3 +135,4 @@ footer {
         width: 90%;
     }
 }
+
